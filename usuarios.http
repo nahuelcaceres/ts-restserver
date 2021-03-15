@@ -1,0 +1,28 @@
+GET http://localhost:8001/api/usuarios/
+
+###
+GET http://localhost:8001/api/usuarios/1
+
+###
+POST http://localhost:8001/api/usuarios/
+content-type: application/json
+
+{
+    "nombre": "milanga",
+    "email": "milanga@gmail.com"
+}
+
+###
+PUT http://localhost:8001/api/usuarios/6
+content-type: application/json
+
+{
+    "nombre": "Milanga",
+    "estado": true
+}
+
+
+###
+DELETE  http://localhost:8001/api/usuarios/4
+
+
